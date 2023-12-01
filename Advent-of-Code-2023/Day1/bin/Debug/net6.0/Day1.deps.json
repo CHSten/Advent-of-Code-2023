@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Day1/1.0.0": {
+        "dependencies": {
+          "Advent-of-Code-2023": "1.0.0"
+        },
+        "runtime": {
+          "Day1.dll": {}
+        }
+      },
+      "Advent-of-Code-2023/1.0.0": {
+        "runtime": {
+          "Advent-of-Code-2023.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Advent-of-Code-2023/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
