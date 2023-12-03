@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jn8QVyfnd3Ggav/PeAE6H1OUFFchUV1FwXalOazIwJehG3yz/enBsyoEzNkgC9o/BclZagvEmiE0nm6a+sDC7Q==",
+  "dgSpecHash": "XK0NVK/0twTbAwxrjiDPNqS+2bQ1KVddkdbWI0LkZcKR6JKDNcDkB/1Zw9m4n43etMO2m9KvdgxkF3dw1Y1bFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\OneDrive\\Dokumenter\\GitHub\\Advent-of-Code-2023\\Advent-of-Code-2023\\Advent-of-Code-2023\\Advent-of-Code-2023.csproj",
+  "projectFilePath": "C:\\Users\\chris\\Desktop\\Coding_Projects\\Advent-of-Code-2023\\Advent-of-Code-2023\\Advent-of-Code-2023\\Advent-of-Code-2023.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://teamcity.monogame.net/guestAuth/app/nuget/feed/_Root/default/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }
