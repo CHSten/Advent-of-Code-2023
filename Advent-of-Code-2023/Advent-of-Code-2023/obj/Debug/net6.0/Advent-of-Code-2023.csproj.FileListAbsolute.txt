@@ -1,4 +1,3 @@
-C:\Users\chris\OneDrive\Dokumenter\GitHub\Advent-of-Code-2023\Advent-of-Code-2023\Advent-of-Code-2023\obj\Debug\net6.0\Advent-of-Code-2023.csproj.AssemblyReference.cache
 C:\Users\chris\OneDrive\Dokumenter\GitHub\Advent-of-Code-2023\Advent-of-Code-2023\Advent-of-Code-2023\obj\Debug\net6.0\Advent-of-Code-2023.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\chris\OneDrive\Dokumenter\GitHub\Advent-of-Code-2023\Advent-of-Code-2023\Advent-of-Code-2023\obj\Debug\net6.0\Advent-of-Code-2023.AssemblyInfoInputs.cache
 C:\Users\chris\OneDrive\Dokumenter\GitHub\Advent-of-Code-2023\Advent-of-Code-2023\Advent-of-Code-2023\obj\Debug\net6.0\Advent-of-Code-2023.AssemblyInfo.cs
@@ -28,3 +27,4 @@ C:\Users\chris\Desktop\Coding_Projects\Advent-of-Code-2023\Advent-of-Code-2023\A
 C:\Users\chris\Desktop\Coding_Projects\Advent-of-Code-2023\Advent-of-Code-2023\Advent-of-Code-2023\obj\Debug\net6.0\Advent-of-Code-2023.pdb
 C:\Users\chris\Desktop\Coding_Projects\Advent-of-Code-2023\Advent-of-Code-2023\Advent-of-Code-2023\obj\Debug\net6.0\Advent-of-Code-2023.genruntimeconfig.cache
 C:\Users\chris\Desktop\Coding_Projects\Advent-of-Code-2023\Advent-of-Code-2023\Advent-of-Code-2023\obj\Debug\net6.0\ref\Advent-of-Code-2023.dll
+C:\Users\chris\OneDrive\Dokumenter\GitHub\Advent-of-Code-2023\Advent-of-Code-2023\Advent-of-Code-2023\obj\Debug\net6.0\Advent-of-Code-2023.sourcelink.json
