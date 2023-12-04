@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Day4
-build_property.ProjectDir = C:\Users\chris\OneDrive\Dokumenter\GitHub\Advent-of-Code-2023\Advent-of-Code-2023\Day4\
+build_property.ProjectDir = C:\Users\chris\Desktop\Coding_Projects\Advent-of-Code-2023\Advent-of-Code-2023\Day4\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

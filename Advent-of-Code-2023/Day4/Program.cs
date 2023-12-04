@@ -19,7 +19,6 @@ namespace Day4
             Console.WriteLine($"From scratch cards, the elf has won total points of: {totalPoints}\n");
 
             Console.WriteLine("--PART 2:--");
-            //input = "Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53\r\nCard 2: 13 32 20 16 61 | 61 30 68 82 17 32 24 19\r\nCard 3:  1 21 53 59 44 | 69 82 63 72 16 21 14  1\r\nCard 4: 41 92 73 84 69 | 59 84 76 51 58  5 54 83\r\nCard 5: 87 83 26 28 32 | 88 30 70 12 93 22 82 36\r\nCard 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11";
             int totalScratchCards = Part2(input);
             Console.WriteLine($"The total number of scratch cards is: {totalScratchCards}\n");
         }
@@ -57,6 +56,7 @@ namespace Day4
 
             Dictionary<int, int> idToNumberOfMatches = new();
 
+            // Set idToNumberOfMatches
             foreach (Card card in cards)
             {
                 int numberOfMatchingNumbers = 0;
@@ -70,30 +70,17 @@ namespace Day4
                 idToNumberOfMatches.Add(card.ID, numberOfMatchingNumbers);
             }
 
-            //List<int> cardIds = new(idToNumberOfMatches.Keys);
-            //for (int c = 0; c < cardIds.Count; c++)
-            //{
-            //    int cardID = cardIds[c];
-            //    int numberOfMatches = idToNumberOfMatches[cardID];
-            //    for (int i = 0; i < numberOfMatches; i++)
-            //    {
-            //        int index = cardIds[c] + i;
-            //        cardIds.Add(cardIds[index]);
-            //    }
-
-            //    cardIds = cardIds.Order().ToList();
-            //}
-
-            //return cardIds.Count;
-
             List<int> cardIds = new(idToNumberOfMatches.Keys);
             Dictionary<int, int> copiesAmount = new();
 
+            // Initialize copiesAmount
             for (int i = 0; i < cardIds.Count; i++)
             {
                 copiesAmount.Add(i, 1);
             }
 
+            // Go through each card.
+            // Add 'Amount to copy' times 'Amount of copies of this card' to copiesAmount
             for (int c = 0; c < cardIds.Count; c++)
             {
                 int currentID = cardIds[c];
@@ -102,17 +89,15 @@ namespace Day4
                 for (int i = 0; i < matchingAmount; i++)
                 {
                     int j = i + currentID;
-                    copiesAmount[j]++;
+                    copiesAmount[j] += copiesAmount[c];
                 }
             }
 
+            //Sum all copies
             int totalNumberOfCards = 0;
-            for (int i = 0; i < copiesAmount.Count; i++)
+            foreach (int copies in copiesAmount.Values)
             {
-                for (int j = 0; j < copiesAmount[i]; j++)
-                {
-                    totalNumberOfCards += j * j;
-                }
+                totalNumberOfCards += copies;
             }
 
             return totalNumberOfCards;
